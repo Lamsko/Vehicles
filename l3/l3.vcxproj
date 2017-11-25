@@ -146,7 +146,7 @@
     <ClInclude Include="Amphibian.h" />
     <ClInclude Include="Boat.h" />
     <ClInclude Include="Car.h" />
-    <ClInclude Include="Punkty.h" />
+    <ClInclude Include="Punkt.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Vehicle.h" />
@@ -156,7 +156,7 @@
     <ClCompile Include="Boat.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Punkty.cpp" />
+    <ClCompile Include="Punkt.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

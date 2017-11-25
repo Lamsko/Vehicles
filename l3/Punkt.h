@@ -1,11 +1,11 @@
 #pragma once
-class Punkty
+class Punkt
 {
 public:
-	Punkty();
-	~Punkty();
+	Punkt();
+	~Punkt();
 	
-	void losowy();
+	void setLos();
 	int getOdlLad();
 	int getOdlWoda();
 

@@ -1,7 +1,7 @@
 #pragma once
 #include "Vehicle.h"
 
-class Car : public Vehicle
+class Car : public virtual Vehicle
 {
 public:
 	Car();

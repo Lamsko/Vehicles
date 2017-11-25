@@ -33,7 +33,7 @@
     <ClInclude Include="Amphibian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Punkty.h">
+    <ClInclude Include="Punkt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,7 +56,7 @@
     <ClCompile Include="Amphibian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Punkty.cpp">
+    <ClCompile Include="Punkt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
