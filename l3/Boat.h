@@ -1,5 +1,7 @@
 #pragma once
-class Boat
+#include "Vehicle.h"
+
+class Boat : public Vehicle
 {
 public:
 	Boat();
