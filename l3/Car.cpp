@@ -13,3 +13,8 @@ Car::Car()
 Car::~Car()
 {
 }
+
+int Car::getOdleglosc()
+{
+	return 0;
+}

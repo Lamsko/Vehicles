@@ -14,3 +14,8 @@ Amphibian::Amphibian()
 Amphibian::~Amphibian()
 {
 }
+
+int Amphibian::getOdleglosc()
+{
+	return 0;
+}

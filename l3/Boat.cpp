@@ -13,3 +13,8 @@ Boat::Boat()
 Boat::~Boat()
 {
 }
+
+int Boat::getOdleglosc()
+{
+	return 0;
+}
