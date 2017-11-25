@@ -9,6 +9,11 @@ Car::Car()
 	cout << "Konstruktor Car" << endl;
 }
 
+Car::Car(string n)
+{
+	nazwa = n;
+}
+
 
 Car::~Car()
 {
