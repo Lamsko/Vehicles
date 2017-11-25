@@ -12,7 +12,7 @@ public:
 	string getNazwa();
 
 protected:
-	string nazwa;
+	string nazwa; //alternatywnie numer seryjny
 	bool jedzi, plywa;
 };
 
