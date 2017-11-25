@@ -6,7 +6,14 @@ using namespace std;
 
 Boat::Boat()
 {
-	cout << "Konstruktor Boat" << endl;
+	plywa = true;
+	nazwa = "lodka";
+}
+
+Boat::Boat(string n)
+{
+	plywa = true;
+	nazwa = n;
 }
 
 

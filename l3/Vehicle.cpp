@@ -4,14 +4,12 @@
 
 using namespace std;
 
-Vehicle::Vehicle()
+Vehicle::Vehicle() : nazwa("Wehiku³"), jedzi(false), plywa(false)
 {
-	nazwa = "Wehiku³";
 }
 
-Vehicle::Vehicle(string n)
+Vehicle::Vehicle(string n) : nazwa(n), jedzi(false), plywa(false)
 {
-	nazwa = n;
 }
 
 

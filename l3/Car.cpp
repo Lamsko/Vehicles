@@ -6,11 +6,13 @@ using namespace std;
 
 Car::Car()
 {
-	cout << "Konstruktor Car" << endl;
+	jedzi = true;
+	nazwa = "samochod";
 }
 
 Car::Car(string n)
 {
+	jedzi = true;
 	nazwa = n;
 }
 

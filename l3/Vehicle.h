@@ -11,7 +11,7 @@ public:
 	
 	string getNazwa();
 
-private:
+protected:
 	string nazwa;
 	bool jedzi, plywa;
 };

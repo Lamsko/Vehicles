@@ -5,6 +5,7 @@ class Boat : public virtual Vehicle
 {
 public:
 	Boat();
+	Boat(string n);
 	~Boat();
 	int getOdleglosc();
 };

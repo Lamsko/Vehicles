@@ -7,7 +7,16 @@ using namespace std;
 
 Amphibian::Amphibian()
 {
-	cout << "Konstruktor Ampibian" << endl;
+	plywa = true;
+	jedzi = true;
+	nazwa = "amfibia";
+}
+
+Amphibian::Amphibian(string n)
+{
+	plywa = true;
+	jedzi = true;
+	nazwa = n;
 }
 
 
