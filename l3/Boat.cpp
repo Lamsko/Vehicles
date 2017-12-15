@@ -4,18 +4,15 @@
 
 using namespace std;
 
-Boat::Boat()
+Boat::Boat() : Vehicle()
 {
 	plywa = true;
-	nazwa = "lodka";
 }
 
-Boat::Boat(string n)
+Boat::Boat(string n) : Vehicle(n)
 {
 	plywa = true;
-	nazwa = n;
 }
-
 
 Boat::~Boat()
 {

@@ -4,18 +4,15 @@
 
 using namespace std;
 
-Car::Car()
+Car::Car() : Vehicle()
 {
 	jedzi = true;
-	nazwa = "samochod";
 }
 
-Car::Car(string n)
+Car::Car(string n) : Vehicle(n)
 {
 	jedzi = true;
-	nazwa = n;
 }
-
 
 Car::~Car()
 {

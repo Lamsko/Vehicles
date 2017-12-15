@@ -4,21 +4,16 @@
 
 using namespace std;
 
-
 Amphibian::Amphibian()
 {
-	plywa = true;
-	jedzi = true;
-	nazwa = "amfibia";
+	plywa, jedzi = true;
 }
 
-Amphibian::Amphibian(string n)
+Amphibian::Amphibian(string n) : Vehicle(n)
 {
 	plywa = true;
 	jedzi = true;
-	nazwa = n;
 }
-
 
 Amphibian::~Amphibian()
 {
